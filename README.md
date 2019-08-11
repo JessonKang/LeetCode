@@ -13,3 +13,5 @@ LeetCode 50题 刷题笔记
 
 [5.排序链表](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%205%EF%BC%9A148.%20%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.md)
 
+[6.Subsets](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%206%EF%BC%9ASubsets.md)
+

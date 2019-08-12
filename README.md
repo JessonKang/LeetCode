@@ -15,3 +15,5 @@ LeetCode 50题 刷题笔记
 
 [6.Subsets](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%206%EF%BC%9ASubsets.md)
 
+[7.Single Number](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%207%EF%BC%9A136.%20Single%20Number.md)
+

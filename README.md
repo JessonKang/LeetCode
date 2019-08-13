@@ -17,3 +17,5 @@ LeetCode 50题 刷题笔记
 
 [7.Single Number](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%207%EF%BC%9A136.%20Single%20Number.md)
 
+[8.Majority Element](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%208%EF%BC%9A169.%20Majority%20Element.md)
+

@@ -1,5 +1,5 @@
 # LeetCode
-LeetCode 50题 刷题笔记
+​		LeetCode 50题 刷题笔记，注意本repo的所有题目、部分解法均来自于[LeetCode](https://leetcode-cn.com/problemset/all/)，收集于此仅用于学习，感谢广大网友的无私奉献。
 
 ## 列表：
 
@@ -18,4 +18,6 @@ LeetCode 50题 刷题笔记
 [7.Single Number](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%207%EF%BC%9A136.%20Single%20Number.md)
 
 [8.Majority Element](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%208%EF%BC%9A169.%20Majority%20Element.md)
+
+[9.Power of Two](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%209%EF%BC%9APower%20of%20Two.md)
 

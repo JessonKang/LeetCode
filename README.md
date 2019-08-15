@@ -21,3 +21,5 @@
 
 [9.Power of Two](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%209%EF%BC%9APower%20of%20Two.md)
 
+[10.Maximum Depth of Binary Tree](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2010%EF%BC%9A104.%20Maximum%20Depth%20of%20Binary%20Tree.md)
+

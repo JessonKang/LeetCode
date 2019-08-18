@@ -23,3 +23,6 @@
 
 [10.Maximum Depth of Binary Tree](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2010%EF%BC%9A104.%20Maximum%20Depth%20of%20Binary%20Tree.md)
 
+[11.Binary Tree Maximum Path Sum](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2011%EF%BC%9A124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
+
+[12.Kth Smallest Element in a BST](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2012%EF%BC%9A230.%20Kth%20Smallest%20Element%20in%20a%20BST.md)

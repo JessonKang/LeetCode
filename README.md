@@ -26,3 +26,8 @@
 [11.Binary Tree Maximum Path Sum](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2011%EF%BC%9A124.%20Binary%20Tree%20Maximum%20Path%20Sum.md)
 
 [12.Kth Smallest Element in a BST](https://github.com/JessonKang/LeetCode-50-/blob/master/Task%2012%EF%BC%9A230.%20Kth%20Smallest%20Element%20in%20a%20BST.md)
+
+[13.Lowest Common Ancestor of a Binary Search Tree](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2013%EF%BC%9A235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
+
+14.Lowest Common Ancestor of a Binary Tree
+

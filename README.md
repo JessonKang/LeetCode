@@ -29,5 +29,5 @@
 
 [13.Lowest Common Ancestor of a Binary Search Tree](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2013%EF%BC%9A235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.md)
 
-14.Lowest Common Ancestor of a Binary Tree
+[14.Lowest Common Ancestor of a Binary Tree](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2014%EF%BC%9A236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.md)
 

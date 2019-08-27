@@ -33,3 +33,4 @@
 
 [15.(146 Medium)LRU Cache](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/task%2015%EF%BC%88M%EF%BC%89%EF%BC%9A%20146.%20LRU%20Cache.md)
 
+16.(292 easy) Nim Game

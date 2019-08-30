@@ -35,5 +35,5 @@
 
 [16.(292 easy) Nim Game](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2016%EF%BC%9A292.%20Nim%20Game.md)
 
-17.（hard 4）Median of Two Sorted Arrays
+[17.（hard 4）Median of Two Sorted Arrays](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2017%EF%BC%9A4.%20Median%20of%20Two%20Sorted%20Arrays.md)
 

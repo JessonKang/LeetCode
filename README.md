@@ -43,5 +43,5 @@
 
 [20.（11 Medium） Container With Most Water](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2020%EF%BC%9A11.%EF%BC%88Medium%EF%BC%89%20Container%20With%20Most%20Water.md)
 
-21.（15 Medium） 3Sum
+[21.（15 Medium） 3Sum](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2021%EF%BC%9A15.%EF%BC%88Medium%EF%BC%89%203Sum.md)
 

@@ -62,7 +62,7 @@ B[0], B[1], ..., B[j-1]  |  B[j], B[j+1], ..., B[n-1]
 
 那么A和B的共同中位数就为：
 
-> medium = max(left_part)，n+m为奇数
+> medium = max(left_part)，n+m为奇数（划分时多出的那个元素划入左部）
 >
 > medium = (max(left_part) + min(right_part)) / 2，n+m为偶数
 

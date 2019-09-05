@@ -68,7 +68,7 @@ B[0], B[1], ..., B[j-1]  |  B[j], B[j+1], ..., B[n-1]
 
 要确保这两个条件成立，只需要保证如下条件成立即可：
 
-> （1）i + j = (m-i) + (n-j) +1（m-i + n-j + 1，这里加1是为了让m+n为奇数的时候left_part多一个元素，这样就可以直接返回max(left_part）的元素作为中位数，而当m+n为偶数的时候，加1也不会影响划分结果，即两边的元素个数依旧相等，具体看下面的代码实现。
+> （1）i + j = (m-i) + (n-j) +1（m-i + n-j + 1，这里加1是为了让m+n为奇数的时候left_part多一个元素，这样就可以直接返回max(left_part）的元素作为中位数，而当m+n为偶数的时候，加1也不会影响划分结果，即两边的元素个数依旧相等，具体看下面的代码实现。当然，不+1就是在总数为奇数的时候让右边多一个元素，处理方式一样。
 >
 > ​		设n>=m，则 j = (m+n+1)/2 - i，i = 0,1,...,m，这里是为了让len(left_part) = len(right_part)，选择元素个数少的数组作为划分的自变量，划分点i从0,1,...,m，这样的话可以减少划分的情况。因为要满足上面的等式，所以当i的划分点确定后，划分点j也是确定的。如下例所示：
 >
@@ -112,9 +112,11 @@ class Solution {
 			int i = (iMin + iMax)/2;
 			//n数组的划分点，表示把j个元素划入左部
 			int j = halfLen - i;
-			if(i < iMax && nums2[j-1] > nums1[i]) {
+            
+           //在进行大小的比较时，判断i和j是否越界,非常重要
+			if((j!=0 && i!=m) && nums2[j-1] > nums1[i]) {
 				iMin = i+1; //i is too small
-			}else if(i > iMin && nums1[i-1]>nums2[j]) {
+			}else if((i!=0 && j!=n) && nums1[i-1]>nums2[j]) {
 				iMax = i-1; //i is too big
 			}else { //nums2[j-1]<=nums1[i]&&nums1[i-1]<=nums2[j]
 				
@@ -153,14 +155,11 @@ class Solution {
 
 ### 法二：
 
-**来自网上的提醒：**这里求中位数可以转换为求解有序数组中的第k大的问题，当 k = (n+m+1)/2时，第k大的数即为中位数。太神了，我怎么就没想起来呢，之前还在算法课里学了来着。
+其中的解法三是把该问题转换为求Top K问题。
 
-![](images/task17.png)
-
-https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/di-gui-pai-chu-fa-jian-dan-yi-dong-de-ologminmnjie/
-
-解法待续~~~
+https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/
 
 ### 思考
 
-关于法一，自己其实有想到一部分，但是思路不清晰，无法完成地写出算法。这需要多锻炼才行。
+1. 关于法一，自己其实有想到一部分，但是思路不清晰，无法完成地写出算法。这需要多锻炼才行。
+2. 在第二次写代码的时候，最后的return语句分子本应该是2.0却写成了2，导致一直得不到正确的返回值。在代码的检查过程中，有想到是不是这句的原因，但是总认为这个语句很简单，应该不会写错，所以就没有认真的看。最后是在eclipse下一步步调试才发现问题出在此处。在debug时，任何一个语句都不能放过，出错的往往就是那些自认为不会写错的地方；此外，如果leetcode上实在找不出问题，就直接上eclipse一步步调试；最后，很多地方不要自己瞎想，直接看看他人的思路，这样会节省时间，也能获得新的思路。

@@ -1,6 +1,6 @@
-## Task 23： [（Medium）33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+## Task 23： [（Medium）33 && 81. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
 
-### 题目
+### 题目 33
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -24,7 +24,7 @@ Your algorithm's runtime complexity must be in the order of O(log n).
 
 ### 思路
 
-在数组中查找元素，且要求复杂度不超过O(logn)，故用二分法来找。由于这里是旋转数组，所以要考虑到一些其它的情况，算法如下：
+在数组中查找元素，且要求复杂度不超过O(logn)，故用二分法来找。由于这里是旋转数组，所以在nums[mid]不等于target的情况下，不能简单地根据 target > nums[mid] 而执行 left = mid+1(或target<nums[mid]时执行 right=mid-1)，因为此时mid的右边可能不止有大于nums[mid]的数，可能还有小于nums[mid]的数，需要加其它的判断条件来改变left或right的值。见算法的第3步，算法如下：
 
 1. 设左右边界指针start、end，计算mid = (start+end) / 2；
 2. 如果nums[mid] == target，则返回mid，程序结束，否则到3；
@@ -63,6 +63,69 @@ class Solution {
     }
 }
 ```
+
+### 题目 81
+
+在上面中给定了target在数组中不存在重复元素，如果存在重复元素时，则上面的程序无法跑通所有的case。
+
+比如：
+
+```java
+nums = [1,3,1,1,1]
+target = 3
+
+上面的程序返回false.
+```
+
+即对于 nums[mid] = nums[left]的情况（也如10111 和 11101），根据上面的程序无法判断是前部分还是后部分有序，此时让left++即可。
+
+**注：这个解法太精辟了！！！**
+
+```java
+public boolean search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        int start = 0;
+        int end = nums.length - 1;
+        int mid;
+        while (start <= end) {
+            mid = start + (end - start) / 2;
+            if (nums[mid] == target) {
+                return true;
+            }
+            //当无法分清是前半部分还是后半部分有序时，让start++。
+            if (nums[start] == nums[mid]) {
+                start++;
+                continue;
+            }
+            //前半部分有序
+            if (nums[start] < nums[mid]) {
+                //target在前半部分
+                if (nums[mid] > target && nums[start] <= target) {
+                    end = mid - 1;
+                } else {  //否则，去后半部分找
+                    start = mid + 1;
+                }
+            } else {
+                //后半部分有序
+                //target在后半部分
+                if (nums[mid] < target && nums[end] >= target) {
+                    start = mid + 1;
+                } else {  //否则，去后半部分找
+                    end = mid - 1;
+
+                }
+            }
+        }
+        //一直没找到，返回false
+        return false;
+
+    }
+
+```
+
+
 
 ### 思考
 

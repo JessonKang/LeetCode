@@ -28,8 +28,8 @@ Your algorithm's runtime complexity must be in the order of O(log n).
 
 1. 设左右边界指针start、end，计算mid = (start+end) / 2；
 2. 如果nums[mid] == target，则返回mid，程序结束，否则到3；
-3. mid会把nums分成两部分[start...mid] 和 [mid+1...end]：
-   1. 如果[start...mid]部分有序，即nums[start]<=nums[mid]。判断target是否在有序区域内，即nums[start] <= target < nums[mid]，如果满足，即执行end = mid-1。否则，即target在无序区域内，执行start=mid+1把问题区间转向右边。
+3. mid会把nums分成两部分[start...mid] 和 [mid+1...end]（其中一个区间肯定是有序的，可以随便举个例子如：[6,7,1,2,3,4,5]和[3,4,5,6,7,112]）：
+   1. 如果[start...mid]部分有序，即nums[start]<=nums[mid]。因为该部分是有序的，所以可以通过比较target和区间端点值的大小关系来判断target是否在有序区域内，即nums[start] <= target < nums[mid]，如果成立，则执行end = mid-1。否则，即target在无序区域内，执行start=mid+1把问题区间转向右边。
    2. 如果是[mid...end]有序的情况，则看target是否落在有序区域，即nums[mid] < target <= nums[end]，如果满足，则start = mid+1，否则，即target在无序区域，执行end=mid-1.
 
 ```java
@@ -41,11 +41,11 @@ class Solution {
         int end = nums.length -1;
         int mid;
         while(start <= end){
-            mid = start + ((end-start)>>1);
+            mid = start + ((end-start)>>1);//(start+end)/2 的高效写法
             if(nums[mid] == target)
                 return mid;
             //前半部分有序的情况           
-            if(nums[start] <= nums[mid]){
+            if(nums[start] <= nums[mid]){ //注意这里必须带"="，虽然已经规定了数组中不存在重复元素，但是如果数组只有两个元素如[3,1]这种情况时，不带“=”可能就无法找到target=1这个元素。
                 //target在有序区间里
                 if(target<nums[mid] && target>=nums[start])
                     end = mid-1;

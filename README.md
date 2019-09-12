@@ -49,5 +49,7 @@
 
 [23.（33 Medium）Search in Rotated Sorted Array](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2023%EF%BC%9A%20%EF%BC%88Medium%EF%BC%8933.%20Search%20in%20Rotated%20Sorted%20Array.md)
 
-24（54螺旋矩阵），25（59），26（62不同路径），27（88合并两个有序数组）
+[24.（54 Medium）Spiral Matrix](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2024%EF%BC%9A54.%20Spiral%20Matrix.md)
+
+25（59），26（62不同路径），27（88合并两个有序数组）
 

@@ -51,5 +51,8 @@
 
 [24.（54 Medium）Spiral Matrix](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2024%EF%BC%9A54.%20Spiral%20Matrix.md)
 
-25（59），26（62不同路径），27（88合并两个有序数组）
+25.（59 Medium） 螺旋矩阵 II
 
+26（62 Medium）Unique Paths
+
+27（88合并两个有序数组）、Task28（数组：121. 买卖股票的最佳时机）、Task29（数组：217. 存在重复元素）

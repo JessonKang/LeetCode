@@ -51,8 +51,9 @@
 
 [24.（54 Medium）Spiral Matrix](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2024%EF%BC%9A54.%20Spiral%20Matrix.md)
 
-25.（59 Medium） 螺旋矩阵 II
+[25.（59 Medium） 螺旋矩阵 II](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2025%EF%BC%9A59.%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%20II.md)
 
-26（62 Medium）Unique Paths
+[26（62 Medium）Unique Paths](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2026%EF%BC%9A62.%20Unique%20Paths.md)
 
 27（88合并两个有序数组）、Task28（数组：121. 买卖股票的最佳时机）、Task29（数组：217. 存在重复元素）
+

@@ -55,5 +55,6 @@
 
 [26（62 Medium）Unique Paths](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2026%EF%BC%9A62.%20Unique%20Paths.md)
 
-27（88合并两个有序数组）、Task28（数组：121. 买卖股票的最佳时机）、Task29（数组：217. 存在重复元素）
+27.（88 easy）Merge Sorted Array
 
+Task28（数组：121. 买卖股票的最佳时机）、Task29（数组：217. 存在重复元素）

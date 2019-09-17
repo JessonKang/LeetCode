@@ -55,6 +55,9 @@
 
 [26（62 Medium）Unique Paths](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2026%EF%BC%9A62.%20Unique%20Paths.md)
 
-27.（88 easy）Merge Sorted Array
+[27.（88 easy）Merge Sorted Array](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2027%EF%BC%9A88.%20Merge%20Sorted%20Array.md)
+
+#### 28.（121 easy）Best Time to Buy and Sell Stock
 
 Task28（数组：121. 买卖股票的最佳时机）、Task29（数组：217. 存在重复元素）
+

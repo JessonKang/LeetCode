@@ -61,7 +61,7 @@
 
 [29.（217 easy） Contains Duplicate](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2029%EF%BC%9A217.%20Contains%20Duplicate.md)
 
-30.（238 medium）Product of Array except self
+[30.（238 medium）Product of Array except self](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2030%EF%BC%9A238.%20Product%20of%20Array%20Except%20Self.md)
 
 Task31（一般）链表：2. 两数相加
 

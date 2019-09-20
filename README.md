@@ -61,5 +61,7 @@
 
 [29.（217 easy） Contains Duplicate](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2029%EF%BC%9A217.%20Contains%20Duplicate.md)
 
-Task29（数组：217. 存在重复元素），task 30（简单）数组：238. 除自身以外数组的乘积，Task31（一般）链表：2. 两数相加
+30.（238 medium）Product of Array except self
+
+Task31（一般）链表：2. 两数相加
 

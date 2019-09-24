@@ -63,5 +63,7 @@
 
 [30.（238 medium）Product of Array except self](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2030%EF%BC%9A238.%20Product%20of%20Array%20Except%20Self.md)
 
-Task31（一般）链表：2. 两数相加，T32(21)，61,141,142,148
+31.（2 medium）2. Add Two Numbers
+
+T32(21)，61,141,142,148
 

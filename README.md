@@ -63,7 +63,11 @@
 
 [30.（238 medium）Product of Array except self](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2030%EF%BC%9A238.%20Product%20of%20Array%20Except%20Self.md)
 
-31.（2 medium）2. Add Two Numbers
+[31.（2 medium）2. Add Two Numbers](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task31%EF%BC%9A2.%20Add%20Two%20Numbers.md)
 
-T32(21)，61,141,142,148
+32.（21 easy）merge Two sorted lists
+
+33.（61 medium）Rotate List
+
+61,141,142,148,160,237,7
 

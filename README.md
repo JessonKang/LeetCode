@@ -67,7 +67,7 @@
 
 32.（21 easy）merge Two sorted lists
 
-33.（61 medium）Rotate List
+[33.（61 medium）Rotate List](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2033%EF%BC%9A61.%20Rotate%20List.md)
 
 61,141,142,148,160,237,7
 

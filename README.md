@@ -65,9 +65,9 @@
 
 [31.（2 medium）2. Add Two Numbers](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task31%EF%BC%9A2.%20Add%20Two%20Numbers.md)
 
-32.（21 easy）merge Two sorted lists
+[32.（21 easy）merge Two sorted lists](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2032%EF%BC%9A21.%20Merge%20Two%20Sorted%20Lists.md)
 
 [33.（61 medium）Rotate List](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2033%EF%BC%9A61.%20Rotate%20List.md)
 
-61,141,142,148,160,237,7
+141,142,148,160,237,7，8
 

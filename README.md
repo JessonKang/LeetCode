@@ -69,7 +69,9 @@
 
 [33.（61 medium）Rotate List](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2033%EF%BC%9A61.%20Rotate%20List.md)
 
+[34.（141 easy）141. Linked List Cycle](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2034%EF%BC%9A141.%20Linked%20List%20Cycle.md)
+
 [42.（43 medium）multiply strings](https://github.com/JessonKang/LeetCode-50-/blob/master/task%2013-50/Task%2042%EF%BC%9A43.%20Multiply%20Strings.md)
 
-141,142,148,160,237,7，8
+142,148,160,237,7，8，5
 
